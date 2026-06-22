@@ -282,8 +282,8 @@ PRODUCT_PACKAGES += \
     TelephonyOverlayCommon \
     WifiOverlayCommon
 
-PRODUCT_PACKAGES += \
-    LineageResXiaomi
+# PRODUCT_PACKAGES += \
+#     LineageResXiaomi
 
 # Partitions
 PRODUCT_PACKAGES += \
