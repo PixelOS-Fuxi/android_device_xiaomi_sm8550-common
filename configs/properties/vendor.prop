@@ -190,7 +190,7 @@ ro.mediaserver.64b.enable=true
 vendor.mm.enable.qcom_parser=16777215
 
 # OEM unlock
-ro.oem_unlock_supported=1
+ro.oem_unlock_supported=0
 
 # Power
 ro.vendor.extension_library=libqti-perfd-client.so
