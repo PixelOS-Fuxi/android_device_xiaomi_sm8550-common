@@ -432,6 +432,10 @@ PRODUCT_COPY_FILES += \
 # Vendor configurations
 $(call inherit-product, vendor/xiaomi/sm8550-common/sm8550-common-vendor.mk)
 
+# Dolby audio stack (DAP / DMS / Dolby audio decoders).
+# The Dolby Vision video components live in device/xiaomi/fuxi-miuicamera.
+$(call inherit-product-if-exists, device/xiaomi/sm8550-common-dolby/dolby.mk)
+
 # Vendor service manager
 PRODUCT_PACKAGES += \
     vndservicemanager
